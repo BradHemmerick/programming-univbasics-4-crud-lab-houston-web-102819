@@ -7,7 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  array = ["hi", "bye", "later", "welcome"]
+  array = ["wow", "I", "am", "really", "learning"]
   element = "peace"
   array << element
 end
