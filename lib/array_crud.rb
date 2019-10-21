@@ -7,8 +7,9 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  nintendo = ["Donkey Kong", "Link", "Wario", "Samus"]
-  nintendo.push("Mario")
+  array = ["hi", "bye", "later", "welcome"]
+  element = "peace"
+  array << element
 end
 
 def add_element_to_start_of_array(array, element)
